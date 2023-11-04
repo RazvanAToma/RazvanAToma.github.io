@@ -8,9 +8,20 @@
 .hero {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(45deg, #09203F, #537895)
+    background: linear-gradient(315deg, #071a33, #000000)
 }
 
-a {
-    text-decoration: underline;
+#correctincorrect {
+    color: white;
+}
+
+.container {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: white solid 2px;
 }
