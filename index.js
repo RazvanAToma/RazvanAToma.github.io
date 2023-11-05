@@ -10,4 +10,4 @@ function checkPass() {
         correctincorrect.innerHTML = ('incorrect')
     } 
 }
-    
+
