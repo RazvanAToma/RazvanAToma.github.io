@@ -7,7 +7,7 @@ function checkPass() {
         correctincorrect.innerHTML = ('correct')
 
     } else {
-        correctincorrect.innerHTML = ('wrong')
+        correctincorrect.innerHTML = ('incorrect')
     } 
 }
     
