@@ -7,7 +7,7 @@ function checkPass() {
         correctincorrect.innerHTML = ('correct')
         window.location.href = "index_logged.html";
     } else {
-        correctincorrect.innerHTML = ('incorrect')
+        correctincorrect.innerHTML = ('incorrect');
     } 
 }
 
