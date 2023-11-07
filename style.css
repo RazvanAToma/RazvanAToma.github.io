@@ -3,12 +3,34 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+    color: aliceblue;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+
+}
+
+p {
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 900;
+    font-family: 'Lilita One';
+}
+
+.loginText {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
 }
 
 .hero {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(315deg, #071a33, #000000)
+    
+}
+
+.backgroundImage {
+    width: 100vw; height: 100vh;
 }
 
 #correctincorrect {
@@ -16,21 +38,52 @@
 }
 
 .container {
-    width: 30%;
+    width: 35%;
     height: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    border: white solid 2px;
+    
 }
 
-.logged {
-    width: 90%;
-    height: 90%;
+.login {
+    border-radius: 35px;
+    padding-top: 3%;
+    padding-right: 1%;
+    padding-left: 1%;
+
+    backdrop-filter: blur(50px);
+
     display: flex;
+    flex-direction: column;
 }
+
+.submit {
+    background: linear-gradient(0deg, rgb(80, 45, 102), rgb(134, 60, 83));
+    height: 4vh;
+    margin: 10px;
+    margin-top: 7vh;
+    border: none;
+    border-radius: 50px;
+}
+
+#password {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 4vh;
+    border: none;
+    border-radius: 50px;
+}
+
+#email {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 4vh;
+    border: none;
+    border-radius: 50px;
+}
+
 
 .button {
     width: 50%;
@@ -42,8 +95,14 @@
     height: 100%;
 }
 
-.
-
 label {
-    color: white;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.logged {
+    width: 90%;
+    height: 90%;
+    display: flex;
 }

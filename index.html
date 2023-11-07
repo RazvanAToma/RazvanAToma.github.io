@@ -10,18 +10,19 @@
 </head>
 <body>
     <div class="hero">
-        <div class="container">
+        <img src="images/sunset.png" alt="background image" class="backgroundImage">
+        <div class="container login">
+            <p class="loginText">Login</p>
+
             <label for="email">Email</label>
-            <br>
             <input id="email" type="email" placeholder="Email">
 
-            <br>
             <label for="password">Password</label>
-            <br>
             <input id="password" type="password" placeholder="Password">
 
+            <button class="submit" onclick="checkPass()">Submit</button>
+
             <span id="correctincorrect"></span>
-            <button onclick="checkPass()">Submit</button>
 
             <script src="index.js"></script>
         </div>
