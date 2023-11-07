@@ -96,13 +96,5 @@ p {
 }
 
 label {
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.logged {
-    width: 90%;
-    height: 90%;
-    display: flex;
+    color: white;
 }
